@@ -26,5 +26,3 @@ jobs:
 
       - name: Typecheck
         run: npm run -w @world-map/backend typecheck && npm run -w @world-map/viewer build -- --mode production
-
-
